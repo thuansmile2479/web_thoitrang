@@ -135,7 +135,7 @@
     transform: translateX(-50%);
 }
 .title_h2{
-    background-color: #8bc9e2;
+    background-color: rgba(139, 201, 226, 0.9);
     color: tomato;
     padding: 6px;
     margin-bottom: 6px;
@@ -149,10 +149,13 @@
     top: 50%;
     transform: translateY(-50%);
 } */
-.owl-prev, .owl-next{
+.owl-prev,.owl-next{
     position: absolute;
     top: 50%;
     transform: translate(-50%);
+}
+.owl-prev,.owl-next:hover{
+    background-color: transparent!important;
 }
 .owl-prev{
     left: 0;
@@ -212,4 +215,7 @@
     font-size: 30px;
     margin-right: 12px;
     cursor: pointer;
+}
+.product-items{
+    margin-bottom: 50px;
 }
