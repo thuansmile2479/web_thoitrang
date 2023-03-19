@@ -11,6 +11,72 @@
 .row{
     display: flex;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* -------------------------Header--------------------- */
+.header-content{
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content-logo{
+    width: 20%;
+}
+.header-content-logo img{
+    width: 80px;
+}
+.header-content-nav{
+    width: 50%;
+}
+.header-content-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content-nav ul li {
+    margin-right: 12px;
+}
+.header-content-nav ul li:hover a{
+    color: tomato;
+}
+.header-content-nav ul li a {
+    font-weight: 900;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.header-content-search{
+    width: 20%;
+}
+.header-content-search input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #dddd;
+}
+.header-content-search i{
+    cursor: pointer;
+}
+.header-content-icon i{
+    width: 10%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+header {
+    position: fixed;
+    height: 80px;
+    z-index: 1000;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+.slider{
+    margin-top: 80px;
+}
+
+/* -------------------------Slider--------------------- */
 .slider-content-item {
     height:100vh;
     width: 100vw;
